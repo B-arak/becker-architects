@@ -293,6 +293,33 @@ a { text-decoration: none; color: inherit; }
   margin-bottom: 18px;
 }
 
+/* Experience timeline */
+.experience-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 24px;
+}
+.exp-item {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 16px;
+  align-items: baseline;
+}
+.exp-year {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--green);
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+.exp-desc {
+  font-size: 13px;
+  font-weight: 300;
+  color: var(--mid);
+  line-height: 1.5;
+}
+
 .about-stats {
   display: grid;
   grid-template-columns: 1fr 1fr;
