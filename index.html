@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>אופיר בקר | אדריכלות</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a href="#hero" class="logo">
+        <img src="images/logo.png" class="logo-img" alt="Becker Architects" />
+        <span class="logo-fallback">Becker Architects</span>
+      </a>
+      <nav class="main-nav">
+        <a href="#about">אודות</a>
+        <a href="#projects">פרויקטים</a>
+        <a href="#contact">צור קשר</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="תפריט">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav">
+      <a href="#about" class="mobile-link">אודות</a>
+      <a href="#projects" class="mobile-link">פרויקטים</a>
+      <a href="#contact" class="mobile-link">צור קשר</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-label">אדריכלות · תכנון · ניהול</p>
+      <h1 class="hero-title">אופיר בקר<br/>אדריכלות</h1>
+      <a href="#projects" class="btn-outline">לצפייה בפרויקטים</a>
+    </div>
+    <div class="hero-scroll-hint">↓</div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section-pad" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <span class="section-tag">אודות</span>
+          <h2>חזון אדריכלי<br/>מושרש בשטח</h2>
+          <p>
+            אופיר בקר, אדריכל מוסמך עם ניסיון רב שנים בתכנון אדריכלי, ניהול פרויקטים ועבודה מול יועצים.
+            המשרד עוסק במגוון פרויקטים — מבנייה פרטית ועד פרויקטי התחדשות עירונית בהיקפים גדולים.
+          </p>
+          <p>
+            הגישה האדריכלית שלנו מחברת בין פונקציונליות, אסתטיקה ורגישות הקשרית — בכל קנה מידה ובכל סוג מבנה.
+          </p>
+        </div>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-num">15+</span>
+            <span class="stat-label">שנות ניסיון</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">50+</span>
+            <span class="stat-label">פרויקטים</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">1,600</span>
+            <span class="stat-label">מ"ר מבנה ציבור</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">408</span>
+            <span class="stat-label">יח"ד בירושלים</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects section-pad" id="projects">
+    <div class="container">
+      <span class="section-tag">פרויקטים</span>
+      <h2 class="projects-title">תיק עבודות</h2>
+    </div>
+
+    <!-- Project 1 -->
+    <article class="project-block project-dark" id="proj1">
+      <div class="project-image-wrap">
+        <div class="proj-gallery">
+          <img src="images/proj1.png" alt="התחדשות עירונית ירושלים" loading="lazy" class="gallery-main" />
+          <img src="images/proj1b.png" alt="תוכנית מגדל ירושלים" loading="lazy" class="gallery-thumb" />
+        </div>
+      </div>
+      <div class="project-info">
+        <span class="proj-tag">התחדשות עירונית</span>
+        <h3>מגדלי ירושלים<br/>408 + 11 יח"ד</h3>
+        <p>
+          פרויקט התחדשות עירונית בירושלים — אדריכל אחראי במשרד בן צור אדריכלים.
+          מגדל מגורים בן 7 קומות ומגדל שימור בן 11 קומות לשימוש מסחרי ומגורים.
+        </p>
+        <div class="proj-meta">
+          <span>ירושלים</span>
+          <span>|</span>
+          <span>התחדשות עירונית · אחראי אדריכל</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Project 2 -->
+    <article class="project-block project-light" id="proj2">
+      <div class="project-info">
+        <span class="proj-tag">מבנה ציבור</span>
+        <h3>רה-תכנון מבנה ציבור<br/>1,600 מ"ר</h3>
+        <p>
+          מבנה רב-תכליתי בהיקף של 1,600 מ"ר — תכנון כולל, תיאום יועצים וניהול ביצוע.
+          הפרויקט כולל מבנה קיים שעבר הרחבה ושיפוץ מקיף.
+        </p>
+        <div class="proj-meta">
+          <span>ישראל</span>
+          <span>|</span>
+          <span>מבנה ציבור · ביצוע</span>
+        </div>
+      </div>
+      <div class="project-image-wrap">
+        <div class="proj-gallery">
+          <img src="images/proj2.png" alt="מבנה ציבור בביצוע" loading="lazy" class="gallery-main" />
+          <img src="images/proj2b.png" alt="תוכנית ביצוע" loading="lazy" class="gallery-thumb" />
+        </div>
+      </div>
+    </article>
+
+    <!-- Project 3 -->
+    <article class="project-block project-dark" id="proj3">
+      <div class="project-image-wrap">
+        <div class="proj-gallery">
+          <img src="images/proj3.png" alt="מבנים דו משפחתיים יישוב אדם" loading="lazy" class="gallery-main" />
+          <img src="images/proj3b.png" alt="חזית מבנים יישוב אדם" loading="lazy" class="gallery-thumb" />
+        </div>
+      </div>
+      <div class="project-info">
+        <span class="proj-tag">מגורים</span>
+        <h3>מבנים דו-משפחתיים<br/>יישוב אדם · 2022</h3>
+        <p>
+          תכנון מבנים דו-משפחתיים ביישוב אדם — 2022. הפרויקט כולל מספר יחידות דיור
+          עם חזית אחידה ועיצוב אדריכלי ייחודי המשתלב בנוף הקיים.
+        </p>
+        <div class="proj-meta">
+          <span>יישוב אדם</span>
+          <span>|</span>
+          <span>מגורים · תכנון וביצוע</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Project 4 -->
+    <article class="project-block project-light" id="proj4">
+      <div class="project-info">
+        <span class="proj-tag">מגורים · כפרי</span>
+        <h3>בית המייסדים<br/>מושב</h3>
+        <p>
+          תכנון בית המייסדים במושב — שילוב בין ארכיטקטורה מסורתית לעיצוב עכשווי.
+          הפרויקט כולל תוכניות, חתכים וסקיצות קונספט ייחודיות.
+        </p>
+        <div class="proj-meta">
+          <span>מושב</span>
+          <span>|</span>
+          <span>מגורים · תכנון</span>
+        </div>
+      </div>
+      <div class="project-image-wrap">
+        <img src="images/proj4.png" alt="בית המייסדים מושב" loading="lazy" />
+      </div>
+    </article>
+
+    <!-- Project 5 -->
+    <article class="project-block project-dark" id="proj5">
+      <div class="project-image-wrap">
+        <img src="images/proj5.png" alt="רה תכנון בית מנורים" loading="lazy" />
+      </div>
+      <div class="project-info">
+        <span class="proj-tag">הריסה ובנייה</span>
+        <h3>רה-תכנון בית מנורים<br/>הריסה ובנייה</h3>
+        <p>
+          רה-תכנון לבית מגורים קיים — הריסה ובנייה מחדש. הפרויקט כולל הגדלת שטח
+          הבנייה, עדכון חלוקה פנימית ושדרוג מעטפת הבניין.
+        </p>
+        <div class="proj-meta">
+          <span>ישראל</span>
+          <span>|</span>
+          <span>מגורים · הריסה ובנייה</span>
+        </div>
+      </div>
+    </article>
+
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section-pad" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-text">
+          <span class="section-tag light">צור קשר</span>
+          <h2>נשמח לשמוע<br/>מכם</h2>
+          <p>לפרויקטים, שאלות וייעוץ ראשוני — צרו קשר ונחזור אליכם בהקדם.</p>
+          <div class="contact-details">
+            <a href="mailto:ophir.b.arch@gmail.com" class="contact-link">ophir.b.arch@gmail.com</a>
+            <a href="tel:+972527577206" class="contact-link">052-7577206</a>
+          </div>
+        </div>
+        <form class="contact-form" onsubmit="handleSubmit(event)">
+          <div class="form-group">
+            <input type="text" id="name" name="name" placeholder="שם מלא" required />
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="כתובת אימייל" required />
+          </div>
+          <div class="form-group">
+            <input type="tel" id="phone" name="phone" placeholder="טלפון" />
+          </div>
+          <div class="form-group">
+            <textarea id="message" name="message" rows="4" placeholder="ספרו לנו על הפרויקט שלכם" required></textarea>
+          </div>
+          <button type="submit" class="btn-submit">שליחה</button>
+          <p class="form-success" id="form-success">תודה! נחזור אליכם בקרוב.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-logo">
+        <img src="images/logo.png" class="footer-logo-img" alt="Becker Architects" />
+        <span class="footer-fallback">Becker Architects</span>
+      </div>
+      <p class="footer-copy">© 2026 כל הזכויות שמורות לאופיר בקר אדריכלות</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
